@@ -1,0 +1,16 @@
+{
+  "name": "TechRox — AI, Automation, Cloud & Web Development Company",
+  "short_name": "TechRox",
+  "description": "TechRox is an IT company building AI systems, automation, cloud infrastructure, and web products.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
