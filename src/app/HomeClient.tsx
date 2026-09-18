@@ -14,6 +14,7 @@ export function HomeClient() {
       <Hero />
       <ProductsPreview />
       <StatsSection />
+      <LatestInsights />
       <FinalCTA />
     </>
   );
@@ -235,6 +236,34 @@ function FinalCTA() {
           </Reveal>
         </div>
       </TiltCard>
+    </Section>
+  );
+}
+function LatestInsights() {
+  return (
+    <Section className="border-t border-border/60 bg-white/[0.01]">
+      <div className="mx-auto max-w-4xl text-center">
+        <Eyebrow>Latest Insights</Eyebrow>
+        <RevealText
+          as="h2"
+          text="Fresh perspectives on AI, automation, and engineering."
+          className="mx-auto mt-4 font-display text-3xl font-bold tracking-tight md:text-4xl"
+        />
+        <div className="mt-8 flex justify-center">
+          <a
+            href="/blog/post-2026-09-18.html"
+            className="group inline-flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-left transition hover:border-violet-500/50 hover:bg-white/[0.08]"
+          >
+            <div>
+              <p className="text-xs uppercase tracking-widest text-silver-dim">Today's Daily Post</p>
+              <p className="mt-1 font-display text-lg font-semibold text-white group-hover:text-violet-400">
+                AI, Automation & Modern Web Guide →
+              </p>
+            </div>
+            <ArrowRight className="h-5 w-5 text-silver-dim transition-transform group-hover:translate-x-1 group-hover:text-white" />
+          </a>
+        </div>
+      </div>
     </Section>
   );
 }
