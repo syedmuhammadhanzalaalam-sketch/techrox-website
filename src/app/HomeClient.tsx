@@ -14,7 +14,6 @@ export function HomeClient() {
       <Hero />
       <ProductsPreview />
       <StatsSection />
-      <LatestInsights />
       <FinalCTA />
     </>
   );
